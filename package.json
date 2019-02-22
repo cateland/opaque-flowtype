@@ -1,0 +1,16 @@
+{
+  "name": "my-project",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src/ -d lib/",
+    "prepublish": "yarn run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0",
+    "flow-bin": "^0.93.0"
+  },
+  "dependencies": {
+    "global": "^4.3.2"
+  }
+}
