@@ -1,11 +1,11 @@
 // @flow
 import type {
-  UserJID,
-} from "./JID";
+  UserID,
+} from "./ID";
 
 export type MessageContent = string;
 
 export opaque type Message = {
-  user: UserJID;
+  userId: UserID;
   message: MessageContent;
 };
